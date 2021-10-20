@@ -262,10 +262,10 @@ div ul li {
     color: black; }
   /* Otros reconocimientos */
   .gridsReconocimientos {
-    margin: 4vw 0vw 0vw 10vw;
+    margin: 5vw 0vw 0vw 10vw;
     display: grid;
     grid-template-columns: 1vw;
-    grid-template-rows: 25vw 25vw 25vw 25vw 25vw 25vw; }
+    grid-template-rows: 30vw 30vw 30vw 30vw 30vw 30vw; }
   .gridsReconocimientos div {
     width: 80vw;
     height: 10vw; } }
