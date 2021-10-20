@@ -63,3 +63,10 @@ div ul li{
     color: $color1;
 }
 
+
+
+@media screen and (max-width:576px){
+.navbar .navbar-brand{
+    padding-right: 0vw;
+
+}

@@ -45,6 +45,12 @@ div ul li {
 .navbar-light .navbar-nav .nav-link:hover {
   color: #7196B9; }
 
+@media screen and (max-width: 576px) {
+  .navbar .navbar-brand {
+    padding-right: 30vw;
+    font-size: 1.5rem;
+    font-weight: 200; } }
+
 /* BIO RESUMEN */
 .bio-contenedor {
   padding: 5rem 0 2rem 0;
@@ -237,14 +243,14 @@ div ul li {
   .arrowRotate {
     margin: -10% 0 10% 85%; }
   .wrapper {
-    max-height: 120vw;
+    max-height: 150vw;
     display: flex;
     overflow: auto; }
   .wrapper::-webkit-scrollbar {
     width: 0; }
   .wrapper .item {
     min-width: 90vw;
-    height: 90vw;
+    height: 120vw;
     text-align: left;
     margin-right: 2px;
     margin: 0 3vw 0 3vw;
@@ -294,3 +300,7 @@ h1 {
   color: #7196B9;
   outline: 1px solid #7196B9;
   padding: 0.5vw; }
+
+@media screen and (max-width: 576px) {
+  h1 {
+    margin-top: 10vw; } }
