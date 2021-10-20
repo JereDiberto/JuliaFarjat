@@ -47,9 +47,7 @@ div ul li {
 
 @media screen and (max-width: 576px) {
   .navbar .navbar-brand {
-    padding-right: 30vw;
-    font-size: 1.5rem;
-    font-weight: 200; } }
+    padding-right: 0vw; } }
 
 /* BIO RESUMEN */
 .bio-contenedor {
