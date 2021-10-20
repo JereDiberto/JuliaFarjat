@@ -202,9 +202,13 @@ div ul li {
   color: black; }
 
 @media screen and (max-width: 576px) {
+  .bio-resumen-txt {
+    font-size: 5vw;
+    margin-top: -10vw; }
   .rep-contenedor {
     margin-top: 12vw; }
   .rep-titulo {
+    font-size: 6vw;
     padding: 8vw;
     text-align: center; }
   /* Obras disponibles */
@@ -233,14 +237,14 @@ div ul li {
   .arrowRotate {
     margin: -10% 0 10% 85%; }
   .wrapper {
-    max-height: 100vw;
+    max-height: 120vw;
     display: flex;
     overflow: auto; }
   .wrapper::-webkit-scrollbar {
     width: 0; }
   .wrapper .item {
     min-width: 90vw;
-    height: 100vw;
+    height: 90vw;
     text-align: left;
     margin-right: 2px;
     margin: 0 3vw 0 3vw;
