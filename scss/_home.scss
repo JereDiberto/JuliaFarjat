@@ -1,0 +1,266 @@
+$negro: black;
+$blanco: white;
+$color1: #7196B9;
+
+
+/* BIO RESUMEN */
+
+.bio-contenedor{
+    padding: 5rem 0 2rem 0;
+    background-color: $negro;
+}
+
+.bio-resumen-txt{
+    font-family: 'Lora', 'Times New Roman', Times, serif;
+
+    text-align: center;
+    font-size: 3vw;
+    font-weight: 400;
+    color: $blanco;
+}
+
+/* REPRESENTANTE */
+
+.rep-contenedor{
+    margin-top: 3vw;
+    flex-wrap: wrap;
+}
+
+.imagen{
+    box-shadow: 0px 0px 10px grey;
+}
+
+.rep-titulo{
+    font-weight: 600;
+}
+
+/* ULTIMAS MUESTRAS */
+.wrapper{
+    max-height: 50vw;
+    display: flex;
+    overflow: auto;
+}
+
+.wrapper::-webkit-scrollbar{
+    width: 0;
+}
+
+.wrapper .item{
+    min-width: 60vw;
+    height: 35vw;
+    text-align: left;
+    margin-right: 2px;
+    margin: 0 3vw 0 3vw;
+    border-right: 1px solid $negro;
+}
+
+.muestras-numero{
+    font-size: 15vw;
+    font-weight: 900;
+    color: $negro;
+}
+
+.muestras-parrafo{
+    padding: 0 3vw 0 3vw;
+    color: $negro;
+}
+
+
+/* Obras disponibles */
+
+.grids2{
+    margin: 4vw 0vw 0vw 5vw;
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+}
+
+.grids2 div{
+    width: 28vw;
+    height: 28vw;
+
+}
+
+.container-obras {
+    position: relative;
+    width: 100%;
+    margin-bottom: 2vw ;
+
+}
+
+.image {
+    display: block;
+    width: 28vw;
+    height: 28vw;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black ;
+}
+
+.container-obras:hover .overlay {
+    opacity: 0.9;
+}
+
+
+.text {
+    color: white;
+    font-size: 1.3vw;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding-top: 40%;
+    line-height: 15%;
+}
+
+.hoverTitulo{
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.hoverTxtPropiedad{
+    font-size: 1vw;
+    font-weight: 400;
+    padding-top: 30%;
+}
+
+
+
+/* otros reconocimientos */
+.gridsReconocimientos{
+    margin: 4vw 0vw 0vw 5vw;
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+}
+
+.gridsReconocimientos div{
+    width: 26vw;
+    height: 10vw;
+    margin-right: 10vw;
+}
+
+.container-reconocimiento {
+    position: relative;
+    width: 100%;
+    margin-bottom: 2vw ;
+
+}
+
+.gridsReconocimientos div p{
+    color: $negro ;
+    font-weight: 200;
+
+}
+
+.reconocimientosTitulo{
+    font-weight: 900;
+    color: $negro;
+}
+
+
+
+
+@media screen and (max-width:576px){
+
+    .rep-contenedor{
+        margin-top: 12vw;
+    }
+    .rep-titulo{
+        padding: 8vw;
+        text-align: center;
+    }
+    
+    /* Obras disponibles */
+
+    .grids2{
+        margin: 4vw 0vw 0vw 10vw;
+        display: grid;
+        grid-template-columns: 1vw;
+        grid-template-rows: 90vw 90vw 90vw ;
+    }
+    .grids2 div{
+        width: 80vw;
+        height: 80vw;
+    }
+    .container {
+        position: relative;
+        width: 100%;
+    }
+    
+    .image {
+        width: 80vw;
+        height: 80vw;
+    }
+    .hoverTitulo{
+        font-size: 7vw;
+    }
+    .text {
+        font-size: 2.5vw;
+    }
+    .hoverTxtPropiedad{
+        font-size: 3vw;
+        font-weight: 200;
+    }
+
+
+    /* ULTIMAS MUESTRAS */
+
+    .wrapper{
+        max-height: 100vw;
+        display: flex;
+        overflow: auto;
+    }
+    
+    .wrapper::-webkit-scrollbar{
+        width: 0;
+    }
+    
+    .wrapper .item{
+        min-width: 90vw;
+        height: 100vw;
+        text-align: left;
+        margin-right: 2px;
+        margin: 0 3vw 0 3vw;
+        border-right: 1px solid $negro;
+    }
+    
+    .muestras-numero{
+        font-size: 15vw;
+        font-weight: 900;
+        color: $negro;
+    }
+    
+    .muestras-parrafo{
+        padding: 0 3vw 0 3vw;
+        color: $negro;
+    }
+
+
+
+
+    /* Otros reconocimientos */
+    .gridsReconocimientos{
+        margin: 4vw 0vw 0vw 10vw;
+        display: grid;
+        grid-template-columns: 1vw;
+        grid-template-rows: 25vw 25vw 25vw 25vw 25vw 25vw ;
+    }
+    .gridsReconocimientos div{
+        width: 80vw;
+        height: 10vw;
+    }
+
+}

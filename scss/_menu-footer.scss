@@ -1,0 +1,65 @@
+$negro: black;
+$blanco: white;
+$color1: #7196B9;
+
+div ul li{
+    font-family:'Kanut', sans-serif;
+    font-weight: 500;
+    padding-left: 1.5vw;
+}
+
+.bg-light{
+    --bs-bg-opacity: 0;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.nav-contenedor{
+    background-color: $negro;
+}
+
+.navbar-toggler{
+    background-color: $negro;
+}
+
+.custom-toggler .navbar-toggler {
+    border-color: $negro;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar .navbar-brand{
+    color: $blanco;
+    padding-right: 55vw;
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+.navbar .navbar-brand:hover{
+    color: $color1;
+}
+
+.actual{
+    font-weight: 600;
+}
+
+.redes{
+    height: 1.2em;
+    width: 1.2em;
+    margin: 0.5rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $blanco ;
+    padding: 1vw;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: $color1;
+}
+

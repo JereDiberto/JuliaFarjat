@@ -1,0 +1,44 @@
+@import "menu-footer";
+@import "home";
+@import "sobre-mi";
+@import "obras";
+@import "contacto";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Kanut', sans-serif;
+}
+
+$negro: black;
+$blanco: white;
+$color1: #7196B9;
+
+h1{
+    font-weight: 800;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    color: $negro;
+}
+
+.boton{
+    text-align: center;
+    color: $color1;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1rem;
+    flex-wrap: wrap;
+    padding-top: 2vw;
+    border-radius: 100%;
+
+    transition: 1s;
+}
+
+.boton:hover{
+    color: $color1;
+    outline: 1px solid $color1;
+    padding: 0.5vw;
+}
