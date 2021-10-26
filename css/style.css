@@ -46,13 +46,66 @@ div ul li {
   color: #7196B9; }
 
 footer {
+  padding-top: 3vw;
   margin-top: 10vw;
   background-color: black;
-  height: 30vw; }
+  height: 35vw; }
+
+.footer-logo {
+  height: 23vw; }
+
+footer a h4 {
+  color: white;
+  text-decoration: none; }
+
+footer a h4:hover {
+  color: #7196B9;
+  text-decoration: underline; }
+
+footer a {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 1vw; }
+
+footer a:hover {
+  color: #7196B9; }
+
+.footer-redes {
+  padding-top: 2vw; }
+
+.footer-redesTxt {
+  padding-left: 1vw; }
+
+.copyright {
+  padding-top: 3vw;
+  color: gray; }
+
+.dilo {
+  color: #7196B9; }
 
 @media screen and (max-width: 576px) {
   .navbar .navbar-brand {
-    padding-right: 0vw; } }
+    padding-right: 0vw; }
+  footer {
+    height: 200vw; }
+  .footer-logo {
+    margin: 5vw 0 3vw 0;
+    height: 25vw; }
+  footer a h4 {
+    padding-top: 6vw;
+    text-align: center; }
+  footer a {
+    padding-bottom: 2vw;
+    text-align: center; }
+  .footer-redes-cont {
+    padding-left: 30vw; }
+  .footer-redesTxt {
+    padding-left: 3vw; }
+  .copyright {
+    padding-top: 9vw;
+    font-size: 3vw; }
+  .dilo {
+    font-size: 3vw; } }
 
 /* BIO RESUMEN */
 .bio-contenedor {
@@ -60,10 +113,10 @@ footer {
   background-color: black; }
 
 .bio-resumen-txt {
-  font-family: 'Lora', 'Times New Roman', Times, serif;
+  font-family: 'Kanut', sans-serif;
   text-align: center;
   font-size: 3vw;
-  font-weight: 400;
+  font-weight: 300;
   color: white; }
 
 /* REPRESENTANTE */
