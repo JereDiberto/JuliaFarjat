@@ -44,10 +44,6 @@ div ul li{
     color: $color1;
 }
 
-.actual{
-    font-weight: 600;
-}
-
 .redes{
     height: 1.2em;
     width: 1.2em;
@@ -63,16 +59,22 @@ div ul li{
     color: $color1;
 }
 
+.actual{
+    font-weight: 600;
+    color: $color1 !important;
+    
+}
+
 
 footer{
     padding-top: 3vw;
     margin-top: 10vw;
     background-color: black;
-    height: 35vw;
 }
 
 .footer-logo{
     height:23vw;
+    padding-left: 6vw;
 }
 
 footer a h4{
@@ -120,10 +122,6 @@ footer a:hover{
 @media screen and (max-width:576px){
 .navbar .navbar-brand{
     padding-right: 0vw;
-}
-
-footer{
-    height: 200vw;
 }
 
 .footer-logo{

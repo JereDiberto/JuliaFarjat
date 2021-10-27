@@ -1,0 +1,33 @@
+$negro: black;
+$blanco: white;
+$color1: #7196B9;
+
+
+/* REPRESENTANTE */
+.historia-cont{
+    flex-wrap: wrap;
+}
+
+.historia-img{
+    height: 780px;
+    width: 550px;
+    margin-bottom: 5vw;
+    background-color: $color1;
+}
+
+.historia{
+    font-weight: 500;
+    font-size: 1.2vw;
+    width: 57.03125vw;
+    padding: 3vw 6vw 0vw 6vw;
+}
+
+@media screen and (max-width:576px){
+
+    .historia{
+        font-weight: 500;
+        font-size: 1rem;
+        width: 500px;
+        padding: 3vw 6vw 0vw 6vw;
+    }
+}
