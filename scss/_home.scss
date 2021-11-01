@@ -194,32 +194,32 @@ $color1: #7196B9;
 
 
 /* otros reconocimientos */
-.gridsReconocimientos{
+.gridsReconocimientosHome{
     margin: 4vw 0vw 0vw 5vw;
     display: grid;
     grid-template-columns: 30vw 30vw 30vw;
 }
 
-.gridsReconocimientos div{
+.gridsReconocimientosHome div{
     width: 26vw;
     height: 10vw;
     margin-right: 10vw;
 }
 
-.container-reconocimiento {
+.container-reconocimientoHome {
     position: relative;
     width: 100%;
     margin-bottom: 3vw ;
 
 }
 
-.gridsReconocimientos div p{
+.gridsReconocimientosHome div p{
     color: $negro ;
     font-weight: 200;
 
 }
 
-.reconocimientosTitulo{
+.reconocimientosTituloHome{
     font-weight: 900;
     color: $negro;
 }
@@ -327,15 +327,19 @@ $color1: #7196B9;
     }
 
     /* Otros reconocimientos */
-    .gridsReconocimientos{
+    .gridsReconocimientosHome{
         margin: 5vw 0vw 0vw 10vw;
         display: grid;
         grid-template-columns: 1vw;
         grid-template-rows: 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw ;
     }
-    .gridsReconocimientos div{
+    .gridsReconocimientosHome div{
         width: 80vw;
         height: 10vw;
+    }
+
+    .container-reconocimientoHome {
+        margin-bottom: 10vw ;
     }
 
 }

@@ -255,26 +255,26 @@ footer a:hover {
   padding-top: 30%; }
 
 /* otros reconocimientos */
-.gridsReconocimientos {
+.gridsReconocimientosHome {
   margin: 4vw 0vw 0vw 5vw;
   display: grid;
   grid-template-columns: 30vw 30vw 30vw; }
 
-.gridsReconocimientos div {
+.gridsReconocimientosHome div {
   width: 26vw;
   height: 10vw;
   margin-right: 10vw; }
 
-.container-reconocimiento {
+.container-reconocimientoHome {
   position: relative;
   width: 100%;
   margin-bottom: 3vw; }
 
-.gridsReconocimientos div p {
+.gridsReconocimientosHome div p {
   color: black;
   font-weight: 200; }
 
-.reconocimientosTitulo {
+.reconocimientosTituloHome {
   font-weight: 900;
   color: black; }
 
@@ -344,14 +344,16 @@ footer a:hover {
     padding: 0 3vw 0 3vw;
     color: black; }
   /* Otros reconocimientos */
-  .gridsReconocimientos {
+  .gridsReconocimientosHome {
     margin: 5vw 0vw 0vw 10vw;
     display: grid;
     grid-template-columns: 1vw;
     grid-template-rows: 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw; }
-  .gridsReconocimientos div {
+  .gridsReconocimientosHome div {
     width: 80vw;
-    height: 10vw; } }
+    height: 10vw; }
+  .container-reconocimientoHome {
+    margin-bottom: 10vw; } }
 
 /* REPRESENTANTE */
 .historia-cont {
@@ -398,6 +400,30 @@ footer a:hover {
 
 .conc-parrafo-bottom {
   border-top: 1px solid black; }
+
+/* otros reconocimientos */
+.gridsReconocimientos {
+  margin: 4vw 0vw 0vw 5vw;
+  display: grid;
+  grid-template-columns: 30vw 30vw 30vw; }
+
+.gridsReconocimientos div {
+  width: 26vw;
+  height: 10vw;
+  margin-right: 10vw; }
+
+.container-reconocimiento {
+  position: relative;
+  width: 100%;
+  margin-bottom: 3vw; }
+
+.gridsReconocimientos div p {
+  color: black;
+  font-weight: 200; }
+
+.reconocimientosTitulo {
+  font-weight: 900;
+  color: black; }
 
 /* CONCURSOS */
 @media screen and (max-width: 576px) {
