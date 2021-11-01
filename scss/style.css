@@ -423,11 +423,12 @@ footer a:hover {
     margin: -10% 0 10% 85%;
   }
   .wrapper {
-    max-height: 180vw;
+    max-height: 170vw;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     overflow: auto;
+    background-color: burlywood;
   }
   .wrapper::-webkit-scrollbar {
     width: 0;
@@ -445,11 +446,12 @@ footer a:hover {
   }
   .wrapper .item {
     min-width: 110vw;
-    height: 110vw;
+    height: 145vw;
     text-align: left;
     margin-right: 2px;
     margin: 0 3vw 0 3vw;
     border-right: 1px solid yellowgreen;
+    background-color: chocolate;
   }
   .muestras-numero {
     font-size: 15vw;

@@ -314,9 +314,10 @@ footer a:hover {
   .arrowRotate {
     margin: -10% 0 10% 85%; }
   .wrapper {
-    max-height: 180vw;
+    max-height: 170vw;
     display: flex;
-    overflow: auto; }
+    overflow: auto;
+    background-color: burlywood; }
   .wrapper::-webkit-scrollbar {
     width: 0;
     height: 1vw; }
@@ -331,11 +332,12 @@ footer a:hover {
     overflow: scroll; }
   .wrapper .item {
     min-width: 110vw;
-    height: 110vw;
+    height: 145vw;
     text-align: left;
     margin-right: 2px;
     margin: 0 3vw 0 3vw;
-    border-right: 1px solid yellowgreen; }
+    border-right: 1px solid yellowgreen;
+    background-color: chocolate; }
   .muestras-numero {
     font-size: 15vw;
     font-weight: 900;
