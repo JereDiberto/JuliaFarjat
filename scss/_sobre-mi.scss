@@ -26,15 +26,17 @@ $color1: #7196B9;
     margin-top: 5vw;
 }
 
+
+/* ULTI */
 .grids3{
     display: grid;
     grid-template-columns: 6vw 30vw;
+    padding: 0;
 }
 
 .grids3 h3{
     text-align: center;
     padding-top: 1vw;
-
 }
 
 .grids3 p{
@@ -63,7 +65,7 @@ $color1: #7196B9;
 
 
 
-/* otros reconocimientos */
+/* otros concurcimientos */
 .gridsReconocimientos{
     margin: 4vw 0vw 0vw 5vw;
     display: grid;

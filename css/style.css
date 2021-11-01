@@ -314,7 +314,7 @@ footer a:hover {
   .arrowRotate {
     margin: -10% 0 10% 85%; }
   .wrapper {
-    max-height: 120vw;
+    max-height: 500vw;
     display: flex;
     overflow: auto; }
   .wrapper::-webkit-scrollbar {
@@ -331,7 +331,7 @@ footer a:hover {
     overflow: scroll; }
   .wrapper .item {
     min-width: 90vw;
-    height: 80vw;
+    height: 60vw;
     text-align: left;
     margin-right: 2px;
     margin: 0 3vw 0 3vw;
@@ -373,9 +373,11 @@ footer a:hover {
 .concursos-container {
   margin-top: 5vw; }
 
+/* ULTI */
 .grids3 {
   display: grid;
-  grid-template-columns: 6vw 30vw; }
+  grid-template-columns: 6vw 30vw;
+  padding: 0; }
 
 .grids3 h3 {
   text-align: center;
@@ -401,7 +403,7 @@ footer a:hover {
 .conc-parrafo-bottom {
   border-top: 1px solid black; }
 
-/* otros reconocimientos */
+/* otros concurcimientos */
 .gridsReconocimientos {
   margin: 4vw 0vw 0vw 5vw;
   display: grid;
