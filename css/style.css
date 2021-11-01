@@ -131,9 +131,10 @@ footer a:hover {
 
 /* ULTIMAS MUESTRAS */
 .wrapper {
-  max-height: 50vw;
+  max-height: 40vw;
   display: flex;
-  overflow: auto; }
+  overflow: auto;
+  margin-top: -3vw; }
 
 .wrapper::-webkit-scrollbar {
   background-color: #F5F5F5;
@@ -142,6 +143,7 @@ footer a:hover {
   color: #3B3C3E;
   left: -1px;
   padding: 10px 7px 5px;
+  width: 0.5vw;
   height: 0.5vw;
   overflow: scroll; }
 
@@ -150,15 +152,18 @@ footer a:hover {
   background-color: black; }
 
 .wrapper .item {
-  min-width: 60vw;
-  height: 35vw;
+  min-width: 80vw;
+  height: 40vw;
   text-align: left;
   margin-right: 2px;
   margin: 0 3vw 0 3vw;
   border-right: 1px solid black; }
 
+.muestras-contenedor {
+  align-items: center; }
+
 .muestras-numero {
-  font-size: 15vw;
+  font-size: 12vw;
   font-weight: 900;
   color: black; }
 
@@ -309,7 +314,7 @@ footer a:hover {
   .arrowRotate {
     margin: -10% 0 10% 85%; }
   .wrapper {
-    max-height: 150vw;
+    max-height: 125vw;
     display: flex;
     overflow: auto; }
   .wrapper::-webkit-scrollbar {
@@ -326,7 +331,7 @@ footer a:hover {
     overflow: scroll; }
   .wrapper .item {
     min-width: 90vw;
-    height: 120vw;
+    height: 132vw;
     text-align: left;
     margin-right: 2px;
     margin: 0 3vw 0 3vw;
@@ -363,16 +368,19 @@ footer a:hover {
   padding: 3vw 6vw 0vw 6vw;
   margin: 0; }
 
+.concursos-container {
+  margin-top: 5vw; }
+
 .grids3 {
   display: grid;
-  grid-template-columns: 13vw 30vw; }
+  grid-template-columns: 6vw 30vw; }
 
 .grids3 h3 {
   text-align: center;
   padding-top: 1vw; }
 
 .grids3 p {
-  padding: 1vw 0 0vw 1vw; }
+  padding: 1vw 0 0 1vw; }
 
 .conc-numeros-top {
   border-right: 1px solid black; }

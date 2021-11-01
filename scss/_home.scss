@@ -35,9 +35,10 @@ $color1: #7196B9;
 
 /* ULTIMAS MUESTRAS */
 .wrapper{
-    max-height: 50vw;
+    max-height: 40vw;
     display: flex;
     overflow: auto;
+    margin-top: -3vw;
 }
 
 .wrapper::-webkit-scrollbar{
@@ -48,6 +49,7 @@ $color1: #7196B9;
     left: -1px;
     padding: 10px 7px 5px;
 
+    width: 0.5vw;
     height: 0.5vw;
     overflow:scroll;
 }
@@ -58,16 +60,20 @@ $color1: #7196B9;
     }
 
 .wrapper .item{
-    min-width: 60vw;
-    height: 35vw;
+    min-width: 80vw;
+    height: 40vw;
     text-align: left;
     margin-right: 2px;
     margin: 0 3vw 0 3vw;
     border-right: 1px solid $negro;
 }
 
+.muestras-contenedor{
+    align-items: center;
+}
+
 .muestras-numero{
-    font-size: 15vw;
+    font-size: 12vw;
     font-weight: 900;
     color: $negro;
 }
@@ -278,7 +284,7 @@ $color1: #7196B9;
     }
 
     .wrapper{
-        max-height: 150vw;
+        max-height: 125vw;
         display: flex;
         overflow: auto;
     }
@@ -302,7 +308,7 @@ $color1: #7196B9;
     
     .wrapper .item{
         min-width: 90vw;
-        height: 120vw;
+        height: 132vw;
         text-align: left;
         margin-right: 2px;
         margin: 0 3vw 0 3vw;

@@ -22,10 +22,13 @@ $color1: #7196B9;
 }
 
 
+.concursos-container{
+    margin-top: 5vw;
+}
 
 .grids3{
     display: grid;
-    grid-template-columns: 13vw 30vw;
+    grid-template-columns: 6vw 30vw;
 }
 
 .grids3 h3{
@@ -35,7 +38,7 @@ $color1: #7196B9;
 }
 
 .grids3 p{
-    padding: 1vw 0 0vw 1vw;
+    padding: 1vw 0 0 1vw;
 }
 
 
@@ -50,8 +53,6 @@ $color1: #7196B9;
     border-right: 1px solid $negro;
     border-top: 1px solid $negro;
 }
-
-
 
 .conc-parrafo{
     border-top: 1px solid $negro;
