@@ -21,6 +21,52 @@ $color1: #7196B9;
     margin: 0;
 }
 
+
+
+.grids3{
+    display: grid;
+    grid-template-columns: 13vw 30vw;
+}
+
+.grids3 h3{
+    text-align: center;
+    padding-top: 1vw;
+
+}
+
+.grids3 p{
+    padding: 1vw 0 0vw 1vw;
+}
+
+
+.conc-numeros-top{
+    border-right: 1px solid $negro;
+    }
+.conc-numeros{
+    border-right: 1px solid $negro;
+    border-top: 1px solid $negro;
+}
+.conc-numeros-bottom{
+    border-right: 1px solid $negro;
+    border-top: 1px solid $negro;
+}
+
+
+
+.conc-parrafo{
+    border-top: 1px solid $negro;
+}
+.conc-parrafo-bottom{
+    border-top: 1px solid $negro;
+}
+
+
+
+
+
+/* CONCURSOS */
+
+
 @media screen and (max-width:576px){
 
     .historia-cont{
@@ -37,6 +83,5 @@ $color1: #7196B9;
         width: 100%;
         padding: 3vw 6vw 0vw 6vw;
     }
-
 
 }

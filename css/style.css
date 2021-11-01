@@ -136,7 +136,18 @@ footer a:hover {
   overflow: auto; }
 
 .wrapper::-webkit-scrollbar {
-  width: 0; }
+  background-color: #F5F5F5;
+  border: 1px solid #DDDDDD;
+  border-radius: 4px 0 4px 0;
+  color: #3B3C3E;
+  left: -1px;
+  padding: 10px 7px 5px;
+  height: 0.5vw;
+  overflow: scroll; }
+
+.wrapper::-webkit-scrollbar-thumb {
+  border-radius: 100vw;
+  background-color: black; }
 
 .wrapper .item {
   min-width: 60vw;
@@ -302,7 +313,17 @@ footer a:hover {
     display: flex;
     overflow: auto; }
   .wrapper::-webkit-scrollbar {
-    width: 0; }
+    width: 0;
+    height: 1vw; }
+  .wrapper::-webkit-scrollbar {
+    background-color: #F5F5F5;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #3B3C3E;
+    left: -1px;
+    padding: 10px 7px 5px;
+    height: 0.5vw;
+    overflow: scroll; }
   .wrapper .item {
     min-width: 90vw;
     height: 120vw;
@@ -342,6 +363,35 @@ footer a:hover {
   padding: 3vw 6vw 0vw 6vw;
   margin: 0; }
 
+.grids3 {
+  display: grid;
+  grid-template-columns: 13vw 30vw; }
+
+.grids3 h3 {
+  text-align: center;
+  padding-top: 1vw; }
+
+.grids3 p {
+  padding: 1vw 0 0vw 1vw; }
+
+.conc-numeros-top {
+  border-right: 1px solid black; }
+
+.conc-numeros {
+  border-right: 1px solid black;
+  border-top: 1px solid black; }
+
+.conc-numeros-bottom {
+  border-right: 1px solid black;
+  border-top: 1px solid black; }
+
+.conc-parrafo {
+  border-top: 1px solid black; }
+
+.conc-parrafo-bottom {
+  border-top: 1px solid black; }
+
+/* CONCURSOS */
 @media screen and (max-width: 576px) {
   .historia-cont {
     flex-wrap: wrap; }
