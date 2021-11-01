@@ -331,7 +331,7 @@ footer a:hover {
     overflow: scroll; }
   .wrapper .item {
     min-width: 90vw;
-    height: 60vw;
+    height: 180vw;
     text-align: left;
     margin-right: 2px;
     margin: 0 3vw 0 3vw;
@@ -441,7 +441,18 @@ footer a:hover {
   /* CONCURSOS Y SIMPOSIOS */
   .grids3 {
     display: grid;
-    grid-template-columns: 15vw 80vw; } }
+    grid-template-columns: 15vw 80vw; }
+  /* Otros reconocimientos */
+  .gridsReconocimientos {
+    margin: 5vw 0vw 0vw 10vw;
+    display: grid;
+    grid-template-columns: 1vw;
+    grid-template-rows: 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw 30vw; }
+  .gridsReconocimientos div {
+    width: 80vw;
+    height: 10vw; }
+  .container-reconocimiento {
+    margin-bottom: 10vw; } }
 
 /* OBRAS POR EL MUNDO */
 .contenedor {
