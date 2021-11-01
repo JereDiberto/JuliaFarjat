@@ -314,7 +314,7 @@ footer a:hover {
   .arrowRotate {
     margin: -10% 0 10% 85%; }
   .wrapper {
-    max-height: 125vw;
+    max-height: 180vw;
     display: flex;
     overflow: auto; }
   .wrapper::-webkit-scrollbar {
@@ -330,8 +330,8 @@ footer a:hover {
     height: 0.5vw;
     overflow: scroll; }
   .wrapper .item {
-    min-width: 90vw;
-    height: 60vw;
+    min-width: 110vw;
+    height: 110vw;
     text-align: left;
     margin-right: 2px;
     margin: 0 3vw 0 3vw;
