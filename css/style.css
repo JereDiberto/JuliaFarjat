@@ -314,7 +314,7 @@ footer a:hover {
   .arrowRotate {
     margin: -10% 0 10% 85%; }
   .wrapper {
-    max-height: 170vw;
+    max-height: 180vw;
     display: flex;
     overflow: auto;
     background-color: burlywood; }
@@ -335,7 +335,7 @@ footer a:hover {
     height: 145vw;
     text-align: left;
     margin-right: 2px;
-    margin: 0 3vw 0 3vw;
+    margin: 0 0vw -2vw 0vw;
     border-right: 1px solid yellowgreen;
     background-color: chocolate; }
   .muestras-numero {
