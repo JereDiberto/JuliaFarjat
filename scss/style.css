@@ -591,11 +591,15 @@ footer a:hover {
     padding: 3vw 6vw 0vw 6vw;
   }
   /* PARTICIPACION EN CONCURSOS Y SIMPOSIOS */
+  .concursos-container {
+    width: 90%;
+    margin-left: 3vw;
+  }
   .grids3 {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 15vw 75vw;
-        grid-template-columns: 15vw 75vw;
+    -ms-grid-columns: 15vw 70vw;
+        grid-template-columns: 15vw 70vw;
   }
   /* Otros reconocimientos */
   .gridsReconocimientos {

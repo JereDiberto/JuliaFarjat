@@ -123,9 +123,13 @@ $color1: #7196B9;
 
 
     /* PARTICIPACION EN CONCURSOS Y SIMPOSIOS */
+    .concursos-container{
+        width: 90%;
+        margin-left: 3vw;
+    }
     .grids3{
         display: grid;
-        grid-template-columns: 15vw 75vw;
+        grid-template-columns: 15vw 70vw;
     }
 
 
