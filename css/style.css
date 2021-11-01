@@ -331,7 +331,7 @@ footer a:hover {
     overflow: scroll; }
   .wrapper .item {
     min-width: 90vw;
-    height: 180vw;
+    height: 160vw;
     text-align: left;
     margin-right: 2px;
     margin: 0 3vw 0 3vw;
@@ -373,7 +373,7 @@ footer a:hover {
 .concursos-container {
   margin-top: 5vw; }
 
-/* ULTI */
+/* PARTICIPACION EN CONCURSOS Y SIMPOSIOS */
 .grids3 {
   display: grid;
   grid-template-columns: 6vw 30vw;
@@ -438,7 +438,7 @@ footer a:hover {
     font-size: 1rem;
     width: 100%;
     padding: 3vw 6vw 0vw 6vw; }
-  /* CONCURSOS Y SIMPOSIOS */
+  /* PARTICIPACION EN CONCURSOS Y SIMPOSIOS */
   .grids3 {
     display: grid;
     grid-template-columns: 15vw 80vw; }
