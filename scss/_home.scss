@@ -284,7 +284,7 @@ $color1: #7196B9;
     }
 
     .wrapper{
-        max-height: 400vw;
+        max-height: 300vw;
         display: flex;
         overflow: auto;
     }
@@ -308,11 +308,11 @@ $color1: #7196B9;
     
     .wrapper .item{
         min-width: 90vw;
-        height: 120vw;
+        height: 100vw;
         text-align: left;
         margin-right: 2px;
         margin: 0 3vw 0 3vw;
-        border-right: 1px solid $negro;
+        border-right: 1px solid red;
     }
     
     .muestras-numero{
