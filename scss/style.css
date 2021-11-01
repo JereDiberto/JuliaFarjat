@@ -428,7 +428,6 @@ footer a:hover {
     display: -ms-flexbox;
     display: flex;
     overflow: auto;
-    background-color: burlywood;
   }
   .wrapper::-webkit-scrollbar {
     width: 0;
@@ -450,8 +449,7 @@ footer a:hover {
     text-align: left;
     margin-right: 2px;
     margin: 0 0vw -2vw 0vw;
-    border-right: 1px solid yellowgreen;
-    background-color: chocolate;
+    border-right: 1px solid black;
   }
   .muestras-numero {
     font-size: 15vw;

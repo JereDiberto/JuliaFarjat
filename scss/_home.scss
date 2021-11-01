@@ -287,7 +287,6 @@ $color1: #7196B9;
         max-height: 180vw;
         display: flex;
         overflow: auto;
-        background-color: burlywood;
     }
     
     .wrapper::-webkit-scrollbar{
@@ -313,8 +312,7 @@ $color1: #7196B9;
         text-align: left;
         margin-right: 2px;
         margin: 0 0vw -2vw 0vw;
-        border-right: 1px solid yellowgreen;
-        background-color: chocolate;
+        border-right: 1px solid $negro;
     }
     
     .muestras-numero{
