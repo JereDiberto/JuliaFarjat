@@ -22,16 +22,20 @@ $color1: #7196B9;
 }
 
 
-.concursos-container{
-    margin-top: 5vw;
-}
+
 
 
 /* PARTICIPACION EN CONCURSOS Y SIMPOSIOS */
+.concursos-container{
+    margin-top: 5vw;
+    width: 90%;
+}
+
 .grids3{
     display: grid;
     grid-template-columns: 6vw 30vw;
     padding: 0;
+    margin-right: 7vw;
 }
 
 .grids3 h3{
@@ -100,7 +104,47 @@ $color1: #7196B9;
 
 
 
-/* CONCURSOS */
+/* PARTICIPÓ COMO JURADO DE SELECCIÓN EN */
+
+.gridsJurado{
+    margin: 4vw 5vw 0vw 5vw;
+    display: grid;
+    grid-template-columns: 26vw 26vw 26vw;
+
+    background-color: $color1;
+    border-radius: 1vw;
+    padding: 1vw 0 3vw 2vw;
+}
+
+.jurado-participacion{
+    margin: 4vw 2vw 0 3vw; 
+    width: 22vw;
+}
+
+.gridsJurado div{
+    width: 26vw;
+    height: 18vw;
+    margin: 2vw 2vw 0 2vw;
+}
+
+.container-jurado {
+    position: relative;
+    width: 100%;
+    padding: 1vw;
+    border-top: 1px solid $blanco;
+    border-left: 1px solid $blanco;
+}
+
+.gridsJurado div p{
+    color: $negro ;
+    font-weight: 200;
+    padding: 0;
+}
+
+.juradoTitulo{
+    font-weight: 900;
+    color: $negro;
+}
 
 
 @media screen and (max-width:576px){
@@ -130,6 +174,36 @@ $color1: #7196B9;
     .grids3{
         display: grid;
         grid-template-columns: 15vw 70vw;
+    }
+
+
+
+
+    /* PARTICIOPACION COMO JURADO DE SELECIIÓN */
+    .gridsJurado{
+        margin: 4vw 5vw 0vw 5vw;
+        grid-template-columns: 80vw;
+        grid-template-rows: 18vw 26vw 26vw 48vw 40vw 26vw 52vw;
+        padding: 1vw 0 3vw 2vw;
+    }
+    .jurado-participacion{
+        margin: 4vw 2vw 0 3vw; 
+        width: 80vw;
+    }
+    .gridsJurado div{
+        width: 80vw;
+        height: 88%;
+        margin: 4vw 0vw 0 2vw;
+    }
+    .gridsJurado div p{
+        padding: 0 0 0 2vw;
+    }
+    
+    .juradoTitulo{
+    padding: 2vw 0 0 2vw;
+    }
+    .noMobile{
+        display: none;
     }
 
 
