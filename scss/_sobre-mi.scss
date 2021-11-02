@@ -35,6 +35,7 @@ $color1: #7196B9;
     color: $negro;
     background-color: $blanco;
     border: 1px solid $color1;
+
 }
 .btn:hover {
     color: $blanco;
@@ -55,7 +56,7 @@ $color1: #7196B9;
 
 .grids3{
     display: grid;
-    grid-template-columns: 6vw 30vw;
+    grid-template-columns: 8vw 30vw;
     padding: 0;
     margin-right: 7vw;
 }
@@ -209,6 +210,14 @@ $color1: #7196B9;
 
 
 
+
+    /* cards PREMIO - RECONOCIMIENTOS */
+.card-premios{
+    width: 85%;
+}
+
+
+
     /* PARTICIPACION EN CONCURSOS Y SIMPOSIOS */
     .concursos-container{
         width: 90%;
@@ -217,6 +226,12 @@ $color1: #7196B9;
     .grids3{
         display: grid;
         grid-template-columns: 15vw 70vw;
+    }
+    .conc-parrafo-topMobile{
+        border-top: 1px solid $negro;
+    }
+    .conc-numeros-topMobile{
+        border-top: 1px solid $negro;
     }
 
 

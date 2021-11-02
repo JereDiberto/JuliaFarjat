@@ -10,7 +10,7 @@
 }
 
 body{
-    font-family:'Kanut', sans-serif;
+    font-family:'Kanit', sans-serif;
 }
 
 $negro: black;
@@ -18,10 +18,14 @@ $blanco: white;
 $color1: #7196B9;
 
 h1{
-    font-weight: 800;
+    font-weight: 700;
     margin-left: 5vw;
     margin-top: 6vw;
     color: $negro;
+}
+
+p{
+    font-weight: 400 !important;
 }
 
 .boton{

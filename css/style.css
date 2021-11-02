@@ -404,7 +404,7 @@ footer a:hover {
 
 .grids3 {
   display: grid;
-  grid-template-columns: 6vw 30vw;
+  grid-template-columns: 8vw 30vw;
   padding: 0;
   margin-right: 7vw; }
 
@@ -516,6 +516,9 @@ footer a:hover {
     font-size: 1rem;
     width: 100%;
     padding: 3vw 6vw 0vw 6vw; }
+  /* cards PREMIO - RECONOCIMIENTOS */
+  .card-premios {
+    width: 85%; }
   /* PARTICIPACION EN CONCURSOS Y SIMPOSIOS */
   .concursos-container {
     width: 90%;
@@ -523,6 +526,10 @@ footer a:hover {
   .grids3 {
     display: grid;
     grid-template-columns: 15vw 70vw; }
+  .conc-parrafo-topMobile {
+    border-top: 1px solid black; }
+  .conc-numeros-topMobile {
+    border-top: 1px solid black; }
   /* PARTICIOPACION COMO JURADO DE SELECIIÓN */
   .gridsJurado {
     margin: 4vw 5vw 0vw 5vw;
@@ -640,13 +647,16 @@ details[open] > summary {
   padding: 0; }
 
 body {
-  font-family: 'Kanut', sans-serif; }
+  font-family: 'Kanit', sans-serif; }
 
 h1 {
-  font-weight: 800;
+  font-weight: 700;
   margin-left: 5vw;
   margin-top: 6vw;
   color: black; }
+
+p {
+  font-weight: 400 !important; }
 
 .boton {
   text-align: center;
