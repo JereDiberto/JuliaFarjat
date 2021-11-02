@@ -9,7 +9,6 @@ $color1: #7196B9;
 }
 
 .historia-img{
-    margin-bottom: 5vw;
     background-color: $color1;
 }
 
@@ -20,6 +19,29 @@ $color1: #7196B9;
     padding: 3vw 6vw 0vw 6vw;
     margin: 0;
 }
+
+
+
+
+/* cards PREMIO - RECONOCIMIENTOS */
+.card-premios{
+    margin-top: 3vw;
+    margin-left: 6vw;
+}
+.card-header{
+    background-color: white;
+}
+.btn {
+    color: $negro;
+    background-color: $blanco;
+    border: 1px solid $color1;
+}
+.btn:hover {
+    color: $blanco;
+    background-color: $color1;
+    border: 1px solid $color1;
+}
+
 
 
 
@@ -147,6 +169,27 @@ $color1: #7196B9;
 }
 
 
+
+.curriculum-sobreMi{
+    margin-top: 3vw;
+    margin-bottom: -4vw;
+    color: $color1;
+    text-decoration: none;
+}
+.curriculum-sobreMi:hover{
+    color: $negro;
+    text-decoration: underline solid $color1;
+}
+.cv-svg{
+    padding: 1vw;
+    width: 40px;
+    height: auto;
+    color: $color1;
+}
+
+
+
+
 @media screen and (max-width:576px){
 
     .historia-cont{
@@ -183,7 +226,7 @@ $color1: #7196B9;
     .gridsJurado{
         margin: 4vw 5vw 0vw 5vw;
         grid-template-columns: 80vw;
-        grid-template-rows: 18vw 26vw 26vw 48vw 40vw 26vw 52vw;
+        grid-template-rows: 22vw 30vw 30vw 52vw 44vw 30vw 56vw;
         padding: 1vw 0 3vw 2vw;
     }
     .jurado-participacion{

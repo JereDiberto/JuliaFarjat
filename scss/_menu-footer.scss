@@ -94,6 +94,14 @@ footer a{
     padding-bottom: 1vw;
 }
 
+.curriculum{
+    color: $blanco;
+    text-decoration: underline solid;
+}
+.curriculum:hover{
+    color: $color1;
+    text-decoration: underline solid $color1;
+}
 footer a:hover{
     color: $color1;
 }

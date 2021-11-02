@@ -69,6 +69,14 @@ footer a {
   text-decoration: none;
   padding-bottom: 1vw; }
 
+.curriculum {
+  color: white;
+  text-decoration: underline solid; }
+
+.curriculum:hover {
+  color: #7196B9;
+  text-decoration: underline solid #7196B9; }
+
 footer a:hover {
   color: #7196B9; }
 
@@ -345,7 +353,7 @@ footer a:hover {
   .muestras-parrafo {
     padding: 0 3vw 0 3vw;
     color: black; }
-  /* Otros <cimientos */
+  /* Otros reconocimientos */
   .gridsReconocimientosHome {
     margin: 5vw 0vw 0vw 10vw;
     display: grid;
@@ -362,7 +370,6 @@ footer a:hover {
   flex-wrap: nowrap; }
 
 .historia-img {
-  margin-bottom: 5vw;
   background-color: #7196B9; }
 
 .historia {
@@ -371,6 +378,24 @@ footer a:hover {
   width: 100%;
   padding: 3vw 6vw 0vw 6vw;
   margin: 0; }
+
+/* cards PREMIO - RECONOCIMIENTOS */
+.card-premios {
+  margin-top: 3vw;
+  margin-left: 6vw; }
+
+.card-header {
+  background-color: white; }
+
+.btn {
+  color: black;
+  background-color: white;
+  border: 1px solid #7196B9; }
+
+.btn:hover {
+  color: white;
+  background-color: #7196B9;
+  border: 1px solid #7196B9; }
 
 /* PARTICIPACION EN CONCURSOS Y SIMPOSIOS */
 .concursos-container {
@@ -465,6 +490,22 @@ footer a:hover {
   font-weight: 900;
   color: black; }
 
+.curriculum-sobreMi {
+  margin-top: 3vw;
+  margin-bottom: -4vw;
+  color: #7196B9;
+  text-decoration: none; }
+
+.curriculum-sobreMi:hover {
+  color: black;
+  text-decoration: underline solid #7196B9; }
+
+.cv-svg {
+  padding: 1vw;
+  width: 40px;
+  height: auto;
+  color: #7196B9; }
+
 @media screen and (max-width: 576px) {
   .historia-cont {
     flex-wrap: wrap; }
@@ -486,7 +527,7 @@ footer a:hover {
   .gridsJurado {
     margin: 4vw 5vw 0vw 5vw;
     grid-template-columns: 80vw;
-    grid-template-rows: 18vw 26vw 26vw 48vw 40vw 26vw 52vw;
+    grid-template-rows: 22vw 30vw 30vw 52vw 44vw 30vw 56vw;
     padding: 1vw 0 3vw 2vw; }
   .jurado-participacion {
     margin: 4vw 2vw 0 3vw;
@@ -604,7 +645,7 @@ body {
 h1 {
   font-weight: 800;
   margin-left: 5vw;
-  margin-top: 5vw;
+  margin-top: 6vw;
   color: black; }
 
 .boton {
