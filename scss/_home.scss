@@ -18,6 +18,9 @@ $color1: #7196B9;
     color: $blanco;
 }
 
+
+
+
 /* REPRESENTANTE */
 
 .rep-contenedor{
@@ -34,11 +37,22 @@ $color1: #7196B9;
 }
 
 /* ULTIMAS MUESTRAS */
+.muestras-titulo-contenedor{
+    background-color: $negro;
+    height: 5vw;
+    margin-bottom: 3vw;
+}
+
+.muestras-titulo{
+    color: $color1!important;
+}
+
 .wrapper{
     max-height: 40vw;
     display: flex;
     overflow: auto;
     margin-top: -3vw;
+    background-color: $negro;
 }
 
 .wrapper::-webkit-scrollbar{
@@ -49,14 +63,14 @@ $color1: #7196B9;
     left: -1px;
     padding: 10px 7px 5px;
 
-    width: 0.5vw;
-    height: 0.5vw;
+    width: 0.7vw;
+    height: 0.7vw;
     overflow:scroll;
 }
 
 .wrapper::-webkit-scrollbar-thumb {
         border-radius: 100vw;
-        background-color:$negro;
+        background-color: rgb(148, 148, 148);
     }
 
 .wrapper .item{
@@ -65,7 +79,7 @@ $color1: #7196B9;
     text-align: left;
     margin-right: 2px;
     margin: 0 3vw 0 3vw;
-    border-right: 1px solid $negro;
+    border-right: 1px solid $blanco;
 }
 
 .muestras-contenedor{
@@ -74,13 +88,16 @@ $color1: #7196B9;
 
 .muestras-numero{
     font-size: 12vw;
-    font-weight: 900;
-    color: $negro;
+    font-weight: 600 !important;
+    -webkit-text-stroke:1.5px $color1;
+    -webkit-text-fill-color:transparent;
+
 }
+
 
 .muestras-parrafo{
     padding: 0 3vw 0 3vw;
-    color: $negro;
+    color: $blanco;
 }
 
 /* flechita */

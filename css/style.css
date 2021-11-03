@@ -139,11 +139,20 @@ footer a:hover {
   font-weight: 600; }
 
 /* ULTIMAS MUESTRAS */
+.muestras-titulo-contenedor {
+  background-color: black;
+  height: 5vw;
+  margin-bottom: 3vw; }
+
+.muestras-titulo {
+  color: #7196B9 !important; }
+
 .wrapper {
   max-height: 40vw;
   display: flex;
   overflow: auto;
-  margin-top: -3vw; }
+  margin-top: -3vw;
+  background-color: black; }
 
 .wrapper::-webkit-scrollbar {
   background-color: #F5F5F5;
@@ -152,13 +161,13 @@ footer a:hover {
   color: #3B3C3E;
   left: -1px;
   padding: 10px 7px 5px;
-  width: 0.5vw;
-  height: 0.5vw;
+  width: 0.7vw;
+  height: 0.7vw;
   overflow: scroll; }
 
 .wrapper::-webkit-scrollbar-thumb {
   border-radius: 100vw;
-  background-color: black; }
+  background-color: #949494; }
 
 .wrapper .item {
   min-width: 80vw;
@@ -166,19 +175,20 @@ footer a:hover {
   text-align: left;
   margin-right: 2px;
   margin: 0 3vw 0 3vw;
-  border-right: 1px solid black; }
+  border-right: 1px solid white; }
 
 .muestras-contenedor {
   align-items: center; }
 
 .muestras-numero {
   font-size: 12vw;
-  font-weight: 900;
-  color: black; }
+  font-weight: 600 !important;
+  -webkit-text-stroke: 1.5px #7196B9;
+  -webkit-text-fill-color: transparent; }
 
 .muestras-parrafo {
   padding: 0 3vw 0 3vw;
-  color: black; }
+  color: white; }
 
 /* flechita */
 .arrowRotate {
@@ -365,6 +375,90 @@ footer a:hover {
   .container-reconocimientoHome {
     margin-bottom: 10vw; } }
 
+/* SOBRE MIIII INTROOOOOO */
+.sobremi-cont {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  background-color: #7196B9;
+  height: 43vw; }
+
+.sobremi-img {
+  margin-top: 3.3vw; }
+
+.sobremi-titulo {
+  font-size: 12vw;
+  color: white;
+  width: 100vw;
+  font-weight: 700;
+  overflow: hidden;
+  position: absolute;
+  top: 40%;
+  left: 0%;
+  transform: translate(-50%, -50%); }
+
+.sobremi-hovertitulo {
+  font-size: 2vw;
+  color: white;
+  font-weight: 300;
+  border: 1px solid white;
+  padding: 0.3vw;
+  position: absolute;
+  top: 80%;
+  left: 40%; }
+
+.contenedor-sobremi-todo {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+  background-color: black; }
+
+.bio-cont1 {
+  margin-top: 7vw; }
+
+.bio-txt1 {
+  padding: 10vw;
+  color: white; }
+
+.bio-img1 {
+  width: 25vw;
+  height: 40vw;
+  border-radius: 20vw;
+  object-fit: cover;
+  color: #7196B9;
+  background-color: #7196B9; }
+
+.bio-cont2 {
+  margin-top: 0vw; }
+
+.bio-txt2 {
+  padding: 0 7vw 0 0;
+  color: white; }
+
+.bio-parrafo2 {
+  margin: -2vw 0 2vw 0vw; }
+
+.bio-img2 {
+  margin-left: 10vw;
+  width: 25vw;
+  height: 40vw;
+  object-fit: cover;
+  border-radius: 20vw;
+  color: #7196B9;
+  background-color: #7196B9; }
+
+.bio-destacado {
+  margin: 7vw 5vw 5vw 5vw;
+  background-color: #7196B9;
+  color: white;
+  padding: 3vw;
+  text-align: center;
+  font-size: 1.5vw;
+  font-weight: 300 !important; }
+
+.bio-final {
+  margin-left: 5vw;
+  color: white; }
+
 /* REPRESENTANTE */
 .historia-cont {
   flex-wrap: nowrap; }
@@ -453,6 +547,34 @@ footer a:hover {
   font-weight: 200; }
 
 .reconocimientosTitulo {
+  font-weight: 900;
+  color: black; }
+
+/* BIBLIOGRAFIA ARTISTICA */
+/* otros reconocimientos */
+.gridsBiblio {
+  margin: 4vw 0vw 0vw 5vw;
+  display: grid;
+  grid-template-columns: 30vw 30vw 30vw; }
+
+.gridsBiblio div {
+  width: 26vw;
+  height: 8vw;
+  margin-right: 10vw;
+  background-color: black;
+  border-radius: 1vw;
+  padding: 1.2vw; }
+
+.cont-biblio {
+  position: relative;
+  width: 100%;
+  margin-bottom: 3vw; }
+
+.gridsBiblio div p {
+  color: #7196B9;
+  font-weight: 200; }
+
+.biblioTitulo {
   font-weight: 900;
   color: black; }
 
