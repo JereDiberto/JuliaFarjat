@@ -241,7 +241,6 @@ $color1: #7196B9;
 
 
 /* BIBLIOGRAFIA ARTISTICA */
-/* otros reconocimientos */
 .gridsBiblio{
     margin: 4vw 0vw 0vw 5vw;
     display: grid;
@@ -346,23 +345,58 @@ $color1: #7196B9;
 
 
 @media screen and (max-width:576px){
-
-    .historia-cont{
-        flex-wrap: wrap;
-    }
-
-    .historia-img{
+    .sobremi-cont{
+        background-color: $color1;
+        height: 111vw;
         width: 100%;
     }
-
-    .historia{
-        font-weight: 500;
-        font-size: 1rem;
-        width: 100%;
-        padding: 3vw 6vw 0vw 6vw;
+    .sobremi-img{
+        margin-top: 3.3vw;
+        width: 89vw;
+    }
+    .sobremi-titulo{
+        font-size: 22vw;
+        line-height: 18vw;
+        width: 100vw;
+        height: 40vw;
+        top: 50%;
+        left: 0%;
+        transform: translate(-50%, -50%);
+    }
+    .sobremi-hovertitulo{
+        font-size: 4vw;
+        top: 90%;
+        left: 33%;
     }
 
 
+/* BIOGRAFIA RESUMEN */
+.bio-cont1{
+    margin-top: -4vw;
+}
+.bio-img1{
+    width: 90vw;
+    height: 45vw;
+    border-radius: 50vw;
+    margin: -3vw 0 0 5vw;
+}
+.bio-img2{
+    width: 90vw;
+    height: 45vw;
+    border-radius: 50vw;
+    margin: 8vw 0 0 0vw;
+}
+.bio-txt2{
+    padding: 8vw 0 0 6vw;
+}
+.bio-destacado{
+    margin: 7vw 6vw 6vw 5vw;
+    padding: 5vw;
+    font-size: 5vw;
+}
+.bio-final{
+    padding-bottom: 5vw;
+}
 
 
     /* cards PREMIO - RECONOCIMIENTOS */
@@ -387,6 +421,39 @@ $color1: #7196B9;
     .conc-numeros-topMobile{
         border-top: 1px solid $negro;
     }
+
+
+
+
+/* BIBLIOGRAFIA ARTISTICA */
+.gridsBiblio{
+    margin: 4vw 0vw 0vw 5vw;
+    grid-template-columns: 90vw;
+}
+.gridsBiblio div{
+    width: 90vw;
+    height: 13vw;
+    padding: 2vw 4vw 2vw 3vw ;
+}
+.cont-biblio {
+    position: relative;
+    width: 100%;
+    margin-bottom: 3vw ;
+}
+.gridsBiblio div p{
+    color: $color1 ;
+    font-weight: 200;
+    line-height: 4vw;
+}
+.biblioTitulo{
+    font-weight: 900;
+    color: $negro;
+}
+
+
+
+
+
 
 
 
