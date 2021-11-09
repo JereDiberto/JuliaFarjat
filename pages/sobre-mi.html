@@ -76,7 +76,7 @@
 </div>
 
 
-<section class="contenedor-sobremi-todo">
+<section class="contenedor-sobremi-todo col-sm-12">
 
 <section class="d-flex row align-items-center bio-cont1 col-md-12">
 
@@ -93,7 +93,7 @@
 
 </section>
 
-<section class="d-flex row container-fluid align-items-center bio-cont2">
+<section class="d-flex row container-fluid align-items-center bio-cont2 col-sm-12">
 
     <div class="col-md-6 mx-auto" >
 <img data-aos="fade-up"
@@ -132,7 +132,7 @@ data-aos-duration="3000" class="bio-img2" src="../img/julia-trabajando.jpeg" alt
 
 
 <h1>Reconocimientos</h1>
-<section class="col-md-12 d-flex row mx-auto">
+<section class="col-md-12 col-sm-12 d-flex row mx-auto">
     
     <div class="card card-premios col-md-3">
         <div class="card-header">
@@ -1062,6 +1062,28 @@ Ver Más
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
 AOS.init();
+</script>
+
+<!-- Para sacar reborde blanco -->
+<!-- Load Javascript in the end of the file -->
+<script src="/js/animation1.min.js"></script><!-- Include the AOS JS -->
+<script>
+    AOS.init();
+    window.onload = function(){
+        document.querySelector("body");
+        setTimeout(function () {
+            var x = document.querySelectorAll(".fade-right");
+            for (var i = 0; i < x.length; i++) {
+                x[i].style.display = "block";
+                x[i].style.overflow = "hidden";
+            }
+            x = document.querySelectorAll(".fade-left");
+            for (var i = 0; i < x.length; i++) {
+                x[i].style.display = "block";
+                x[i].style.overflow = "hidden";
+            }
+        }, 500);
+    }
 </script>
 </body>
 </html>
