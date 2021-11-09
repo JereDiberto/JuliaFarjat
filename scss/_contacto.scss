@@ -1,0 +1,85 @@
+$negro: black;
+$blanco: white;
+$color1: #7196B9;
+
+.body-contacto{
+    background-color: $negro;
+}
+
+.contacto-contenedor{
+    margin-top: 5vw;
+    flex-wrap: wrap;
+}
+
+.contacto-titulo{
+    font-size: 6vw;
+    font-weight: 600;
+    color: $blanco;
+}
+
+.contacto-juliaTxt{
+    color: $blanco;
+    margin-top: -1vw;
+    font-weight: 100;
+    margin-bottom: 2vw;
+}
+
+.slider-img{
+    border-radius: 50vw;
+    border-color: $blanco;
+}
+
+.contacto-redes-cont{
+    width: 32vw;
+    height: 2.2vw;
+    border: 1px solid $blanco;
+    border-radius: 5vw;
+    margin-bottom: 2vw;
+
+}
+
+.contacto-redesTxt{
+    text-decoration: none;
+    color: $blanco;
+    padding-left: 2vw;
+
+    transition: 0.5s;
+}
+.contacto-redesTxt:hover{
+    color: $color1;
+    padding-left: 3vw;
+}
+
+.animate__animated.fadeIn {
+    --animate-duration: 10s;
+}
+
+@media screen and (max-width:576px){
+    .carousel-contacto{
+        display: none;
+    }
+
+    .contacto-titulo{
+        font-size: 12vw;
+        font-weight: 600;
+        color: $blanco;
+    }
+    
+    
+
+    .contacto-redes-cont{
+        width: 65vw;
+        height: 6vw;
+        margin-bottom: 3vw;
+        text-align: center;
+    }
+    .contacto-redesTxt{
+        text-align: center;
+    
+        transition: 0.5s;
+    }
+
+
+
+
+}

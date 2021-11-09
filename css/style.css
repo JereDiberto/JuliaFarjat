@@ -351,10 +351,7 @@ footer a:hover {
   .wrapper .item {
     min-width: 110vw;
     height: 145vw;
-    text-align: left;
-    margin-right: 2px;
-    margin: 0 0vw -2vw 0vw;
-    border-right: 1px solid black; }
+    margin: 0 0vw -2vw 0vw; }
   .muestras-numero {
     font-size: 15vw;
     font-weight: 900;
@@ -805,6 +802,64 @@ details[open] > summary {
     opacity: 0; }
   to {
     opacity: 1; } }
+
+.body-contacto {
+  background-color: black; }
+
+.contacto-contenedor {
+  margin-top: 5vw;
+  flex-wrap: wrap; }
+
+.contacto-titulo {
+  font-size: 6vw;
+  font-weight: 600;
+  color: white; }
+
+.contacto-juliaTxt {
+  color: white;
+  margin-top: -1vw;
+  font-weight: 100;
+  margin-bottom: 2vw; }
+
+.slider-img {
+  border-radius: 50vw;
+  border-color: white; }
+
+.contacto-redes-cont {
+  width: 32vw;
+  height: 2.2vw;
+  border: 1px solid white;
+  border-radius: 5vw;
+  margin-bottom: 2vw; }
+
+.contacto-redesTxt {
+  text-decoration: none;
+  color: white;
+  padding-left: 2vw;
+  transition: 0.5s; }
+
+.contacto-redesTxt:hover {
+  color: #7196B9;
+  padding-left: 3vw; }
+
+.animate__animated.fadeIn {
+  --animate-duration: 10s; }
+
+@media screen and (max-width: 576px) {
+  .carousel-contacto {
+    display: none; }
+  .contacto-titulo {
+    font-size: 12vw;
+    font-weight: 600;
+    color: white; }
+  .contacto-redes-cont {
+    width: 65vw;
+    height: 6vw;
+    margin-bottom: 3vw;
+    text-align: center; }
+  .contacto-redesTxt {
+    text-align: center;
+    transition: 0.5s; } }
 
 * {
   margin: 0;
