@@ -722,6 +722,42 @@ footer a:hover {
   .container-reconocimiento {
     margin-bottom: 10vw; } }
 
+/* OBRRAS DE PEQUEÑO TAMAÑO */
+.slider {
+  max-height: 35vw;
+  display: flex;
+  overflow-x: auto;
+  margin-left: 2vw; }
+
+.slider::-webkit-scrollbar {
+  width: 0; }
+
+.slider .item {
+  width: auto;
+  height: 25vw;
+  line-height: 600px;
+  text-align: center;
+  background-color: seagreen;
+  margin-right: 2vw; }
+
+.imagen-obras {
+  width: 25vw;
+  height: 25vw; }
+
+.obra-titulo {
+  margin: 0.5vw 0 0 0vw;
+  font-size: 2vw;
+  font-weight: 600; }
+
+.obra-parrafo-medidas {
+  padding-right: 5vw;
+  margin: -2vw 0 0 0vw; }
+
+.obra-parrafo {
+  padding-right: 5vw;
+  margin: -2vw 0 0 0vw;
+  font-style: italic; }
+
 /* OBRAS POR EL MUNDO */
 .contenedor {
   max-width: var(--sectionWidth);
