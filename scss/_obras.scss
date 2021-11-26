@@ -160,3 +160,45 @@ details[open] > summary {
     opacity: 1;
     }
 }
+
+
+
+@media screen and (max-width:576px){
+    /* OBRRAS DE PEQUEÑO TAMAÑO */
+
+.slider{
+    max-height: 78vw;
+    margin-top: 2vw;
+    margin-left: 2vw;
+}
+
+
+.slider .item{
+    height: 60vw;
+    line-height: 200px;
+    margin-right: 2vw;
+}
+
+.imagen-obras{
+    width: 25vw;
+    height: 25vw;
+}
+
+.obra-titulo{
+    margin: 0.5vw 0 0 0vw;
+    font-size: 5vw;
+    font-weight: 600;
+}
+
+.obra-parrafo-medidas{
+    margin: -5vw 0 0 0vw ;
+}
+.obra-parrafo{
+    margin: -5vw 0 0 0vw;
+}
+
+.relieves {
+    border: 0.2px solid gray;
+}
+
+}

@@ -18,6 +18,10 @@ $color1: #7196B9;
     color: $blanco;
 }
 
+.slider-home-img{
+    width: 100%;
+    height: auto;
+}
 
 
 
@@ -250,6 +254,16 @@ $color1: #7196B9;
 
 
 @media screen and (max-width:576px){
+
+    .slider-celu{
+        height: 80vw;
+    }
+    .slider-home-img{
+        height: 80vw;
+        width: auto;
+        margin-left: -50%;
+    }
+
 
     .bio-resumen-txt{
         font-size: 5vw;

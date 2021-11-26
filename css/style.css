@@ -149,6 +149,10 @@ footer a:hover {
   font-weight: 300;
   color: white; }
 
+.slider-home-img {
+  width: 100%;
+  height: auto; }
+
 /* REPRESENTANTE */
 .rep-contenedor {
   margin-top: 3vw;
@@ -325,6 +329,12 @@ footer a:hover {
   color: black; }
 
 @media screen and (max-width: 576px) {
+  .slider-celu {
+    height: 80vw; }
+  .slider-home-img {
+    height: 80vw;
+    width: auto;
+    margin-left: -50%; }
   .bio-resumen-txt {
     font-size: 5vw;
     margin-top: -10vw; }
@@ -876,6 +886,30 @@ details[open] > summary {
   to {
     opacity: 1; } }
 
+@media screen and (max-width: 576px) {
+  /* OBRRAS DE PEQUEÑO TAMAÑO */
+  .slider {
+    max-height: 78vw;
+    margin-top: 2vw;
+    margin-left: 2vw; }
+  .slider .item {
+    height: 60vw;
+    line-height: 200px;
+    margin-right: 2vw; }
+  .imagen-obras {
+    width: 25vw;
+    height: 25vw; }
+  .obra-titulo {
+    margin: 0.5vw 0 0 0vw;
+    font-size: 5vw;
+    font-weight: 600; }
+  .obra-parrafo-medidas {
+    margin: -5vw 0 0 0vw; }
+  .obra-parrafo {
+    margin: -5vw 0 0 0vw; }
+  .relieves {
+    border: 0.2px solid gray; } }
+
 .body-contacto {
   background-color: black; }
 
@@ -972,5 +1006,5 @@ p {
 
 @media screen and (max-width: 576px) {
   h1 {
-    margin-top: 20vw;
+    margin-top: 15vw;
     width: 80%; } }
