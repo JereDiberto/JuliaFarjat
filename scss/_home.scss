@@ -330,6 +330,7 @@ $color1: #7196B9;
         max-height: 180vw;
         display: flex;
         overflow: auto;
+        overflow-y: hidden ;
     }
     
     .wrapper::-webkit-scrollbar{
