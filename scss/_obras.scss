@@ -9,6 +9,8 @@ $color1: #7196B9;
     max-height: 35vw;
     display: flex;
     overflow-x: auto;
+    overflow-y:hidden;
+    margin-top: 2vw;
     margin-left: 2vw;
 }
 
@@ -21,7 +23,7 @@ $color1: #7196B9;
     height: 25vw;
     line-height: 600px;
     text-align: center;
-    background-color: seagreen;
+    background-color: $blanco;
     margin-right: 2vw;
 }
 
@@ -46,13 +48,9 @@ $color1: #7196B9;
     font-style: italic;
 }
 
-
-
-
-
-
-
-
+.relieves {
+    border: 0.2px solid gray;
+}
 
 
 

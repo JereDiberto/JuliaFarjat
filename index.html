@@ -44,12 +44,38 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/sobre-mi.html">Sobre mí</a>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/pages/sobre-mi.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Sobre mí
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item sobre-mi-verTodo" href="/pages/sobre-mi.html">Ver Todo</a></li>
+                        <li><a class="dropdown-item" href="/pages/sobre-mi.html">Historia</a></li>
+                        <li><a class="dropdown-item" href="/pages/sobre-mi.html#section-reconocimientos">Reconocimientos</a></li>
+                        <li><a class="dropdown-item" href="/pages/sobre-mi.html#section-concursos">Concursos y Simposios</a></li>
+                        <li><a class="dropdown-item" href="/pages/sobre-mi.html#section-muestras">Últimas Muestras</a></li>
+                        <li><a class="dropdown-item" href="/pages/sobre-mi.html#section-bibliografia">Bibliografía Artística</a></li>
+                        <li><a class="dropdown-item" href="/pages/sobre-mi.html#section-jurado">Participación como Jurado</a></li>
+                        <li><a class="dropdown-item" href="/pages/sobre-mi.html#section-otrosReconocimientos">Otros Reconocimientos</a></li>
+                        <li><a class="dropdown-item" href="/pages/sobre-mi.html#section-curriculum">Curriculum</a></li>
+                        </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pages/obras.html">Obras</a>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/pages/obras.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Obras
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item sobre-mi-verTodo" href="../pages/obras.html">Ver Todo</a></li>
+                        <li><a class="dropdown-item" href="/pages/obras.html#section-obrasPequeñas">Obras de Pequeño Tamaño</a></li>
+                        <li><a class="dropdown-item" href="/pages/obras.html#section-obrasGrandes-">Obras de Gran Tamaño</a></li>
+                        <li><a class="dropdown-item" href="/pages/obras.html#section-relieves">Relieves</a></li>
+                        <li><a class="dropdown-item" href="/pages/obras.html#section-obrasPorElMundo">En el Mundo</a></li>
+                        <li><a class="dropdown-item" href="/pages/obras.html#section-otrasObras">Otras Obras</a></li>
+                        </ul>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="pages/contacto.html">Contacto</a>
                     </li>
@@ -77,6 +103,8 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
             aria-label="Slide 4"></button>
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
             aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+            aria-label="Slide 6"></button>
     </div>
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -86,13 +114,16 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
             <img src="img/trabajando-02.png" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="img/trabajando-03.png" class="d-block w-100" alt="...">
+            <img src="img/julia-slider-03.png" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="img/trabajando-04.png" class="d-block w-100" alt="...">
+            <img src="img/julia-slider-01.png" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-            <img src="img/trabajando-05.png" class="d-block w-100" alt="...">
+            <img src="img/julia-slider-02.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="img/julia-slider-04.png" class="d-block w-100" alt="...">
         </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
@@ -117,12 +148,18 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 </div>
 </section>
 
+
+
 <section class="container-fluid  col-md-10 col-sm-12 d-flex rows align-items-center justify-content-evenly rep-contenedor">
     <div>
-        <img data-aos="fade-up-right" data-aos-duration="3000" class="imagen" src="img/representante.png" alt="Julia Representante de Argentina">
+        <img data-aos="fade-up-right" data-aos-duration="3000" class="representante-img" src="img/representante.png" alt="Julia Representante de Argentina">
+    </div>
+    
+    <div>
+        <img data-aos="fade-up-right" data-aos-duration="3000" class="representante-img" src="img/representante2.png" alt="Julia Representante de Argentina">
     </div>
 
-    <div class="col-md-5 col-sm-12 rep-titulo-cont">
+    <div class="col-md-4 col-sm-12 rep-titulo-cont">
         <h3 class="rep-titulo">Representante Argentina seleccionada por embajada Argentina y Mexicana</h3>
     </div>
 </section>
@@ -283,7 +320,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
             <a href="pages/sobre-mi.html#section-reconocimientos">Reconocimientos</a>
             <a href="pages/sobre-mi.html#section-concursos">Concursos y Simposios</a>
             <a href="pages/sobre-mi.html#section-muestras">Últimas Muestras</a>
-            <a href="pages/sobre-mi.html#section-bibliografia">Bibliografía Artistica</a>
+            <a href="pages/sobre-mi.html#section-bibliografia">Bibliografía Artística</a>
             <a href="pages/sobre-mi.html#section-jurado">Participación como Jurado</a>
             <a href="pages/sobre-mi.html#section-otrosReconocimientos">Otros Reconocimientos</a>
             <a class="curriculum" href="img/curriculum_vitae-Julia-Farjat.pdf" target="blank" download="curriculum_vitae-Julia-Farjat.pdf">Curriculum Vitae</a>
@@ -291,9 +328,11 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 
         <div class="col-md-3 row" >
             <a href="pages/obras.html"> <h4>Obras</h4> </a>
-            <a href="pages/obras.html">Obras Disponibles</a>
-            <a href="pages/obras.html">Obras por el Mundo</a>
-            <a href="pages/obras.html">Otras Obras de su Autoría</a>
+            <a href="pages/obras.html#section-obrasPequeñas">Obras de Pequeño Tamaño</a>
+            <a href="pages/obras.html#section-obrasGrandes">Obras de Gran Tamaño</a>
+            <a href="pages/obras.html#section-relieves">Relieves</a>
+            <a href="pages/obras.html#section-obrasPorElMundo">En el Mundo</a>
+            <a href="pages/obras.html#section-otrasObras">Otras Obras</a>
         </div>
 
         <div class="col-md-3 row" >
@@ -324,7 +363,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     
 </footer>
 
-    
 
 
 

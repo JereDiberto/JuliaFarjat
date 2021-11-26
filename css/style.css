@@ -8,7 +8,9 @@ div ul li {
   --bs-bg-opacity: 0; }
 
 .navbar {
-  padding: 0; }
+  padding: 0;
+  position: fixed;
+  width: 100%; }
 
 .nav-contenedor {
   background-color: black; }
@@ -30,6 +32,26 @@ div ul li {
 
 .navbar .navbar-brand:hover {
   color: #7196B9; }
+
+#navbarDropdownMenuLink {
+  color: white; }
+
+#navbarDropdownMenuLink:hover {
+  color: #7196B9; }
+
+.dropdown-menu {
+  background-color: black; }
+
+.sobre-mi-verTodo {
+  font-weight: 500; }
+
+.dropdown-item {
+  color: white;
+  margin-left: -1vw; }
+
+.dropdown-item:hover {
+  background-color: #7196B9;
+  color: black; }
 
 .redes {
   height: 1.2em;
@@ -132,8 +154,11 @@ footer a:hover {
   margin-top: 3vw;
   flex-wrap: wrap; }
 
-.imagen {
-  box-shadow: 0px 0px 10px grey; }
+.representante-img {
+  box-shadow: 0px 0px 10px grey;
+  margin-right: 2vw;
+  height: 500px;
+  width: auto; }
 
 .rep-titulo {
   font-weight: 600; }
@@ -151,6 +176,7 @@ footer a:hover {
   max-height: 40vw;
   display: flex;
   overflow: auto;
+  overflow-y: hidden;
   margin-top: -3vw;
   background-color: black; }
 
@@ -234,7 +260,8 @@ footer a:hover {
 .image {
   display: block;
   width: 28vw;
-  height: 28vw; }
+  height: 28vw;
+  background-color: white; }
 
 .overlay {
   position: absolute;
@@ -307,6 +334,11 @@ footer a:hover {
     font-size: 6vw;
     padding: 8vw;
     text-align: center; }
+  .representante-img {
+    box-shadow: 0px 0px 5px grey;
+    margin-top: 5vw;
+    width: 300px;
+    height: auto; }
   /* Obras disponibles */
   .grids2 {
     margin: 4vw 0vw 0vw 10vw;
@@ -727,6 +759,8 @@ footer a:hover {
   max-height: 35vw;
   display: flex;
   overflow-x: auto;
+  overflow-y: hidden;
+  margin-top: 2vw;
   margin-left: 2vw; }
 
 .slider::-webkit-scrollbar {
@@ -737,7 +771,7 @@ footer a:hover {
   height: 25vw;
   line-height: 600px;
   text-align: center;
-  background-color: seagreen;
+  background-color: white;
   margin-right: 2vw; }
 
 .imagen-obras {
@@ -757,6 +791,9 @@ footer a:hover {
   padding-right: 5vw;
   margin: -2vw 0 0 0vw;
   font-style: italic; }
+
+.relieves {
+  border: 0.2px solid gray; }
 
 /* OBRAS POR EL MUNDO */
 .contenedor {

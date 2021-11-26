@@ -28,8 +28,11 @@ $color1: #7196B9;
     flex-wrap: wrap;
 }
 
-.imagen{
+.representante-img{
     box-shadow: 0px 0px 10px grey;
+    margin-right: 2vw;
+    height: 500px;
+    width: auto;
 }
 
 .rep-titulo{
@@ -51,6 +54,7 @@ $color1: #7196B9;
     max-height: 40vw;
     display: flex;
     overflow: auto;
+    overflow-y: hidden;
     margin-top: -3vw;
     background-color: $negro;
 }
@@ -162,6 +166,7 @@ $color1: #7196B9;
     display: block;
     width: 28vw;
     height: 28vw;
+    background-color: $blanco;
 
 }
 
@@ -259,6 +264,13 @@ $color1: #7196B9;
         font-size: 6vw;
         padding: 8vw;
         text-align: center;
+    }
+
+    .representante-img{
+        box-shadow: 0px 0px 5px grey;
+        margin-top: 5vw;
+        width: 300px;
+        height: auto;
     }
     
     /* Obras disponibles */

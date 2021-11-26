@@ -12,8 +12,11 @@ div ul li{
     --bs-bg-opacity: 0;
 }
 
+
 .navbar{
     padding: 0;
+    position: fixed;
+    width: 100%;
 }
 
 .nav-contenedor{
@@ -42,6 +45,30 @@ div ul li{
 
 .navbar .navbar-brand:hover{
     color: $color1;
+}
+
+#navbarDropdownMenuLink{
+    color: $blanco;
+}
+#navbarDropdownMenuLink:hover{
+    color: $color1;
+}
+
+.dropdown-menu{
+    background-color: $negro;
+}
+
+.sobre-mi-verTodo{
+    font-weight: 500;
+}
+
+.dropdown-item{
+    color: $blanco;
+    margin-left: -1vw;
+}
+.dropdown-item:hover{
+    background-color: $color1;
+    color: $negro;
 }
 
 .redes{
